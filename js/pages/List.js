@@ -47,12 +47,12 @@ export default {
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">ID</div>
+                            <div class="type-title-sm">Game Link</div>
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">Difficulty</div>
+                            <p>{{ level.password || 'No assigned difficulty' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
